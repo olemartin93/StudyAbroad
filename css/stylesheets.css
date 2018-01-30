@@ -1,0 +1,81 @@
+.navbar{
+	border-radius:0; 
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	float:left;
+	min-height: 65px;
+	padding: 0 10px 10px;
+}
+
+
+.navbar-inverse .navbar-nav li a:hover
+{
+       color:#ffad32;
+
+   }
+
+
+body {
+    background-color: #f4f8ff;
+}
+
+.jumobtron h1{
+	font-size: 20%;
+}
+
+.container{
+	margin:4% auto;
+}
+
+#icon{
+	max-width:200px;
+	margin:1% auto;
+}
+
+
+
+.sizeImg{
+	height:auto;
+	width:40%;
+}
+
+.carousel-caption{
+	top:88%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+	color:#ffad32;
+}
+
+.carousel-inner{
+	display: block;
+    height: auto;
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+footer{
+width:100%;
+background-color: #2b2d30;
+padding:2%;
+color:#FFF;
+}
+
+
+
+footer a, footer a:hover,footer a:active,footer a:visited,footer a:link{
+	margin:0 10px;
+	text-decoration: none;
+	color:#ffad32;
+}
+
+
+
+/*Text sizes etc:   */
+p{
+	font-size: 1em !important;
+}
