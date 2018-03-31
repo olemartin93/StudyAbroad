@@ -17,17 +17,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="html/studyVacation.html
-">Study Vacation</a></li>
-      	<li><a href="australia.html">Australia</a></li>
-       <li><a href="fiji.html">Fiji</a></li>
+      	<li><a href="html/studyVacation.html">Study Vacation</a></li>
+      	<li><a href="#">Australia</a></li>
+       <li><a href="#">Fiji</a></li>
         <li><a href="#">About me</a></li>
         
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Subjects<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="html/InteractiveMedia.html">Interactive Media</a></li>
+            <li><a href="php/InteractiveMedia.php">Interactive Media</a></li>
             <li><a href="#">Networked Enterprise Architecture</a></li>
             <li><a href="#">Object-relational Databases</a></li>
             
