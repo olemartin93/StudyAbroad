@@ -1,236 +1,80 @@
-.navbar{
-	border-radius:0; 
-	margin-bottom: 0;
-}
-
-.navbar-brand{
-	float:left;
-	min-height: 65px;
-	padding: 0 10px 10px;
-}
-
-
-.navbar-inverse .navbar-nav li a:hover
-{
-       color:#ffad32;
-
-   }
-
-
-body {
-	background-color: #f4f8ff;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.jumobtron h1{
-	font-size: 20%;
-}
-
-.container{
-	margin:4% auto;
-}
-
-#icon{
-	max-width:200px;
-	margin:1% auto;
-}
-
-
-
-.sizeImg{
-	height:auto;
-	width:40%;
-}
-
-.carousel-caption{
-	top:88%;
-	transform: translateY(-50%);
-	text-transform: uppercase;
-	color:#ffad32;
-}
-
-.carousel-inner{
-	display: block;
-    height: auto;
-    line-height: 1;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-
-
-footer{
-position: fixed;
-bottom: 0;
+ .navbar{
+ 	border-radius:0; 
+ 	margin-bottom: 0;
+ }
+ 
+ .navbar-brand{
+ 	float:left;
+ 	min-height: 65px;
+ 	padding: 0 10px 10px;
+ }
+ 
+ 
+ .navbar-inverse .navbar-nav li a:hover
+ {
+        color:#ffad32;
+ 
+    }
+ 
+ 
+ body {
+     background-color: #f4f8ff;
+ }
+ 
+ .jumobtron h1{
+ 	font-size: 20%;
+ }
+ 
+ .container{
+ 	margin:4% auto;
+ }
+ 
+ #icon{
+ 	max-width:200px;
+ 	margin:1% auto;
+ }
+ 
+ 
+ 
+ .sizeImg{
+ 	height:auto;
+ 	width:40%;
+ }
+ 
+ .carousel-caption{
+ 	top:88%;
+ 	transform: translateY(-50%);
+ 	text-transform: uppercase;
+ 	color:#ffad32;
+ }
+ 
+ .carousel-inner{
+ 	display: block;
+     height: auto;
+     line-height: 1;
+     margin: 0 auto;
+     max-width: 100%;
+ }
+ 
+ 
+ 
+ footer{
 width:100%;
-background-color: #2b2d30;
-padding-top:2%;
-color:#FFF;
-}
-
-
-
-footer a, footer a:hover,footer a:active,footer a:visited,footer a:link{
-	margin:0 10px;
-	text-decoration: none;
-	color:#ffad32;
-}
-
-
-
-
-.container{
-margin: 50px auto;
-width: 90%;
-}
-
-header h1{
-    color: #fff;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-@font-face {
-    font-family: 'Genericons';
-    src: url('../fonts/genericons-regular-webfont.woff')format('woff'),
-    url('../fonts/genericons-regular-webfont.eot')format('truetype')
-}
-
-.accordion{
-    background: #333;
-    width: 100%;
-    min-width: 800px;
-    display: block;
-    list-style-type: none;
-    overflow: hidden;
-    height: 200px;
-    font-size: 0;
-}
-
-.tab{
-    display: inline-block;
-    background-color: #444;
-    border-right: #333 solid 1px;
-    width: 80px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-}
-
-.tab:hover{
-    width: 450px;
-    transition: all 0.5s ease-in-out 0.1s;
-}
-
-.tab:hover .social a:before{
-    margin-left: -100px;
-}
-
-.tab:hover .social a:after{
-    margin-left: -5px;
-}
-
-.tab .content{
-    background: #fff;
-    width: 360px;
-    height: 200px;
-    margin-left: 80px;
-    position: relative;
-    padding: 50px 0 0 15px;
-}
-
-.tab .content h1{
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.tab .content p{
-    font-size: 0.5rem;
-    line-height: 1.4rem;
-    padding-right: 30px;
-}
-
-.social a:before,
-.social a:after{
-    transition: all 0.4s ease-in-out 0.1s;
-    width: 80px;
-    height: 200px;
-    position: absolute;
-    text-indent: 0;
-    padding-top: 90px;
-    padding-left: 25px;
-    display: block;
-    font: normal 30px Genericons;
-    color:#fff;
-}
-
-.social a:after{
-    font-size: 48px;
-    padding-left: 20px;
-    padding-top: 80px;
-    margin-left: 85px;
-}
-
-/* Add Icons */
-.instagram a:before,
-.instagram a:after {
-    content: '\f215'
-}
-.instagram a:after{
-    background-color: #8a3ab9;
-}
-
-
-.vimeo a:before,
-.vimeo a:after {
-    content: '\f212'
-}
-.vimeo a:after{
-    background-color: #4ebbff;
-}
-
-
-.facebook a:before,
-.facebook a:after {
-    content: '\f204'
-}
-.facebook a:after{
-    background-color: #3b5998;
-}
-
-
-.linkedin a:before,
-.linkedin a:after {
-    content: '\f208'
-}
-.linkedin a:after{
-    background-color: #00a9cd;
-}
-
-
-.linkedin a:before,
-.linkedin a:after {
-    content: '\f207'
-}
-.linkedin a:after{
-    background-color: #0077b5;
-}
-
-
-.github a:before,
-.github a:after {
-    content: '\f200'
-}
-.github a:after{
-    background-color: #6e5494;
-}
-
-
-
-/*Text sizes etc:   */
-p{
-	font-size: 1em !important;
-}
+ background-color: #2b2d30;
+ color:#FFF;
+ }
+ 
+ 
+ 
+ footer a, footer a:hover,footer a:active,footer a:visited,footer a:link{
+ 	margin:0 10px;
+ 	text-decoration: none;
+ 	color:#ffad32;
+ }
+ 
+ 
+ 
+ /*Text sizes etc:   */
+ p{
+ 	font-size: 1em !important;
+ }
